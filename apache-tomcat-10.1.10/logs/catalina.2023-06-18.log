@@ -1,0 +1,68 @@
+18-Jun-2023 20:47:06.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.10
+18-Jun-2023 20:47:06.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 2 2023 18:11:59 UTC
+18-Jun-2023 20:47:06.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.10.0
+18-Jun-2023 20:47:06.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+18-Jun-2023 20:47:06.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.2.2-arch1-1
+18-Jun-2023 20:47:06.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Jun-2023 20:47:06.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-19-openjdk
+18-Jun-2023 20:47:06.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           19.0.2+7
+18-Jun-2023 20:47:06.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Jun-2023 20:47:06.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/alliano-dev/Latihan/java/servlet/apache-tomcat-10.1.10
+18-Jun-2023 20:47:06.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/alliano-dev/Latihan/java/servlet/apache-tomcat-10.1.10
+18-Jun-2023 20:47:06.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/alliano-dev/Latihan/java/servlet/apache-tomcat-10.1.10/conf/logging.properties
+18-Jun-2023 20:47:06.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Jun-2023 20:47:06.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Jun-2023 20:47:06.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Jun-2023 20:47:06.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+18-Jun-2023 20:47:06.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Jun-2023 20:47:06.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Jun-2023 20:47:06.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+18-Jun-2023 20:47:06.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Jun-2023 20:47:06.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Jun-2023 20:47:06.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/alliano-dev/Latihan/java/servlet/apache-tomcat-10.1.10
+18-Jun-2023 20:47:06.561 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/alliano-dev/Latihan/java/servlet/apache-tomcat-10.1.10
+18-Jun-2023 20:47:06.561 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/alliano-dev/Latihan/java/servlet/apache-tomcat-10.1.10/temp
+18-Jun-2023 20:47:06.571 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+18-Jun-2023 20:47:07.129 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Jun-2023 20:47:07.187 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [953] milliseconds
+18-Jun-2023 20:47:07.283 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Jun-2023 20:47:07.284 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.10]
+18-Jun-2023 20:47:07.336 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/alliano-dev/Latihan/java/servlet/apache-tomcat-10.1.10/webapps/servlet-0.0.1-SNAPSHOT.war]
+18-Jun-2023 20:47:09.343 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Jun-2023 20:47:09.567 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/alliano-dev/Latihan/java/servlet/apache-tomcat-10.1.10/webapps/servlet-0.0.1-SNAPSHOT.war] has finished in [2,223] ms
+18-Jun-2023 20:47:09.569 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/alliano-dev/Latihan/java/servlet/apache-tomcat-10.1.10/webapps/ROOT]
+18-Jun-2023 20:47:09.666 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alliano-dev/Latihan/java/servlet/apache-tomcat-10.1.10/webapps/ROOT] has finished in [97] ms
+18-Jun-2023 20:47:09.672 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/alliano-dev/Latihan/java/servlet/apache-tomcat-10.1.10/webapps/manager]
+18-Jun-2023 20:47:09.797 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alliano-dev/Latihan/java/servlet/apache-tomcat-10.1.10/webapps/manager] has finished in [125] ms
+18-Jun-2023 20:47:09.797 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/alliano-dev/Latihan/java/servlet/apache-tomcat-10.1.10/webapps/host-manager]
+18-Jun-2023 20:47:09.837 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alliano-dev/Latihan/java/servlet/apache-tomcat-10.1.10/webapps/host-manager] has finished in [40] ms
+18-Jun-2023 20:47:09.838 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/alliano-dev/Latihan/java/servlet/apache-tomcat-10.1.10/webapps/docs]
+18-Jun-2023 20:47:09.869 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alliano-dev/Latihan/java/servlet/apache-tomcat-10.1.10/webapps/docs] has finished in [31] ms
+18-Jun-2023 20:47:09.870 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/alliano-dev/Latihan/java/servlet/apache-tomcat-10.1.10/webapps/examples]
+18-Jun-2023 20:47:10.208 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alliano-dev/Latihan/java/servlet/apache-tomcat-10.1.10/webapps/examples] has finished in [338] ms
+18-Jun-2023 20:47:10.215 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Jun-2023 20:47:10.250 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3059] milliseconds
+18-Jun-2023 20:48:10.740 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/servlet-0.0.1-SNAPSHOT]
+18-Jun-2023 20:48:10.784 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/alliano-dev/Latihan/java/servlet/apache-tomcat-10.1.10/webapps/belajar.war]
+18-Jun-2023 20:48:12.001 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Jun-2023 20:48:12.065 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/alliano-dev/Latihan/java/servlet/apache-tomcat-10.1.10/webapps/belajar.war] has finished in [1,281] ms
+18-Jun-2023 20:50:02.596 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/belajar]
+18-Jun-2023 20:50:32.641 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/alliano-dev/Latihan/java/servlet/apache-tomcat-10.1.10/webapps/servlet-0.0.1-SNAPSHOT.war]
+18-Jun-2023 20:50:33.868 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Jun-2023 20:50:33.948 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/alliano-dev/Latihan/java/servlet/apache-tomcat-10.1.10/webapps/servlet-0.0.1-SNAPSHOT.war] has finished in [1,308] ms
+18-Jun-2023 20:51:53.969 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/servlet-0.0.1-SNAPSHOT]
+18-Jun-2023 20:51:54.001 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/alliano-dev/Latihan/java/servlet/apache-tomcat-10.1.10/webapps/servlet-0.0.1-SNAPSHOT.war]
+18-Jun-2023 20:51:54.993 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Jun-2023 20:51:55.049 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/alliano-dev/Latihan/java/servlet/apache-tomcat-10.1.10/webapps/servlet-0.0.1-SNAPSHOT.war] has finished in [1,048] ms
+18-Jun-2023 20:52:55.063 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/alliano-dev/Latihan/java/servlet/apache-tomcat-10.1.10/webapps/belajar.war]
+18-Jun-2023 20:52:56.181 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Jun-2023 20:52:56.230 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/alliano-dev/Latihan/java/servlet/apache-tomcat-10.1.10/webapps/belajar.war] has finished in [1,167] ms
+18-Jun-2023 20:58:36.823 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/belajar]
+18-Jun-2023 20:58:36.837 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/alliano-dev/Latihan/java/servlet/apache-tomcat-10.1.10/webapps/belajar.war]
+18-Jun-2023 20:58:37.762 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Jun-2023 20:58:37.829 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/alliano-dev/Latihan/java/servlet/apache-tomcat-10.1.10/webapps/belajar.war] has finished in [992] ms
+18-Jun-2023 20:58:48.331 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/servlet-0.0.1-SNAPSHOT]
+18-Jun-2023 21:30:31.044 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Jun-2023 21:30:31.050 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Jun-2023 21:30:31.345 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Jun-2023 21:30:31.355 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
