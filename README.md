@@ -642,7 +642,7 @@ Filter merupakan fitur yang dimiliki servlet yang digunakan sebagai komponen yan
 Pada bahasa pemograman lain biasanya disebut Middleware.  
 Kita bisa merigistrasikan URL tertentu untuk di filter. Secara otomatis setiap melakukan request Filter akan dijalankan dan kita bisa menetukan apakah request diizinkan atau akan kita tolak.  
 Filter juga bisa berlapis, artinya kita bisa membuat lebih dari satu filter Untuk URL tertentu.
-![interceptor](/servlet/img/interceptor.jpg)
+![interceptor](https://github.com/alliano/Java-Servlet/blob/master/servlet/img/interceptor.jpg)
 
 # HttpFilter
 Filter direperesentasikan interface Filter. Filter juga memiliki implementasi Class nya yaitu HttpFileter.
