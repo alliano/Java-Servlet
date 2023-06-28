@@ -441,9 +441,10 @@ Servlet juga mendukung penaganan Upload file dengan menggunakan HttpServletReque
 |---------------|---------------------------------------|
 | getPart(name) | mengambil file berdasarkan nama       |
 | getParts()    | mengambil semua file yang di upload   |
-File upload di representasikan dengan interface Part.
+
+File upload di representasikan dengan interface Part.  
 Refrence : https://tomcat.apache.org/tomcat-10.0-doc/servletapi/jakarta/servlet/http/Part.html
-Saat kita membuat class turunan Servlet yang mana class tersebut akan menerima upload file, maka class turunan tersebut harus kita annotasi dengan @MultipartConfig sebagai penanda bahwa class turunan Servlet yang kita buat tersebut boleh menerima File.
+Saat kita membuat class turunan Servlet yang mana class tersebut akan menerima upload file, maka class turunan tersebut harus kita annotasi dengan @MultipartConfig sebagai penanda bahwa class turunan Servlet yang kita buat tersebut boleh menerima File.  
 Refrence : https://tomcat.apache.org/tomcat-10.0-doc/servletapi/jakarta/servlet/annotation/MultipartConfig.html
 
 contoh :
